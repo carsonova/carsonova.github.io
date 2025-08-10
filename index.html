@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal homepage of [Your Name], Master's student in Computer Science.">
+    <title>[Your Name] - Computer Science</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>[Your Name]</h1>
+            <p>Master's Student in Computer Science | Boise State University</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <p>
+                I am a Master's student in Computer Science with a passion for [area of interest: AI, data science, systems, etc.].
+                My research interests include [short 1-2 sentence description].
+            </p>
+        </section>
+
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>Project Name</strong> — Brief description with <a href="https://github.com/yourusername/project-repo" target="_blank">GitHub link</a>.
+                </li>
+                <li>
+                    <strong>Another Project</strong> — Brief description with <a href="#">demo link</a>.
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:youremail@domain.com">youremail@domain.com</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">@yourusername</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn Profile</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
